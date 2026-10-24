@@ -20,16 +20,16 @@ Built using a Kaggle dataset, this project combines machine learning with a user
 
 ## 🗂️ Folder Structure
 
+```text
 Diabetes_Prediction/
-├── notebook/ # Jupyter notebook for EDA, preprocessing, and training
-│ └── model_building.ipynb
-├── templates/ # HTML frontend
-│ └── index.html
-├── static/ # CSS styling
-│ └── style.css
-├── models/ # Saved ML model (.pkl)
-│ └── model.pkl
-├── app.py # Flask app
+├── notebook/
+│   ├── Diabetes_Prediction.ipynb   # EDA, preprocessing, training
+│   └── diabetes.csv                # Pima Indians Diabetes dataset
+├── templates/index.html            # HTML frontend
+├── static/style.css                # CSS styling
+├── models/model.pkl                # Saved model
+└── app.py                          # Flask app
+```
 
 
 ---
@@ -57,5 +57,5 @@ Diabetes_Prediction/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/qosain-bukhari/Diabetes_Prediction.git
+   git clone https://github.com/QosainBukhari/Diabetes_Prediction.git
    cd Diabetes_Prediction
